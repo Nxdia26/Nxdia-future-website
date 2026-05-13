@@ -1,88 +1,114 @@
 <!DOCTYPE html>
 <html>
 <head>
-<body>
+
+<title>Locations</title>
+
 <style>
-	body {
-	background-color:#9dc4a0;
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #9dc4a0;
+    text-align: center;
 }
-		body {
-			margin: 0;
-			padding: 0;
-		}
-
-		h2, p {
-			margin: 10px;
-		}
-
-		ul {
-			list-style-type: none;
-			margin: 0;
-			padding: 0;
-			overflow: hidden;
-			background-color: #333333;
-		}
-
-		ul li {
-			float: left;
-		}
-
-		ul li a {
-			display: block;
-			color: white;
-			text-align: center;
-			padding: 30px 16px;
-			text-decoration: none;
-		}
-
-		ul li a:hover {
-			background-color: #111111;
-		}
-	</style>
 
 
-	
+h2 {
+    margin: 30px 20px;
+    color: #333;
+}
 
-	<style>
-		.container {
-			display: grid;
-			grid-template-columns: auto auto auto;
-			background-color: darkolivegreen;
-			padding: 10px;
-		}
-		.container div {
-			background-color: #f1f1f1;
-			border: 5px darkolivegreen;
-			padding: 60px;
-			font-size: 10px;
-			text-align: center;
 
-		}
-	}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: #111111;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 50px 20px;
+}
+
+
+.card {
+    background-color: #f1f1f1;
+    width: 220px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+.card h1 {
+    font-size: 22px;
+    margin-top: 15px;
+    color: #333;
+}
 </style>
 </head>
-<style>
-.btn {
-    background-color: #333333;   
-    color: white;             
-    padding: 10px 20px;
-    text-decoration: none;    underline 
-    border-radius: 5px;
-    display: inline-block;
-}
 
-.btn:hover {
-    background-color:  #9dc4a0; 
-}
-</style>
-	<ul>
-    <li><a href="index.html" class="btn">Stickers</a></li>
-    <li><a href="Weekly.html" class="btn">Weekly</a></li>
-    <li><a href="Locations.html" class="btn">Locations</a></li>
-    <li><a href="About.html" class="btn">About Us</a></li>
+<body>
+
+<h2>
+These are our 3 store locations, but we ship internationally!
+</h2>
+
+<ul>
+    <li><a href="index.html">Stickers</a></li>
+    <li><a href="Weekly.html">Weekly</a></li>
+    <li><a href="Locations.html">Locations</a></li>
+    <li><a href="About.html">About Us</a></li>
 </ul>
 
+<div class="container">
+
+    <div class="card">
+        <img src="SF.png" alt="San Francisco">
+        <h1>San Francisco, CA</h1>
+    </div>
+
+    <div class="card">
+        <img src="Tokyo.png" alt="Tokyo">
+        <h1>Tokyo, Japan</h1>
+    </div>
+
+    <div class="card">
+        <img src="London.png" alt="London">
+        <h1>London, England</h1>
+    </div>
+
+</div>
+
 </body>
-	
-</head>
 </html>

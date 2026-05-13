@@ -1,126 +1,97 @@
 <!DOCTYPE html>
 <html>
 <head>
-<body>
+
+<title>Weekly Drop</title>
+
 <style>
-	body {
-	background-color:#9dc4a0;
-}
-		body {
-			margin: 0;
-			padding: 0;
-		}
-
-		h2, p {
-			margin: 10px;
-		}
-
-		ul {
-			list-style-type: none;
-			margin: 0;
-			padding: 0;
-			overflow: hidden;
-			background-color: #333333;
-		}
-
-		ul li {
-			float: left;
-		}
-
-		ul li a {
-			display: block;
-			color: white;
-			text-align: center;
-			padding: 30px 16px;
-			text-decoration: none;
-		}
-
-		ul li a:hover {
-			background-color: #111111;
-		}
-	</style>
-
-
-	
-
-	<style>
-		.container {
-			display: grid;
-			grid-template-columns: auto auto auto;
-			background-color: darkolivegreen;
-			padding: 10px;
-		}
-		.container div {
-			background-color: #f1f1f1;
-			border: 5px darkolivegreen;
-			padding: 60px;
-			font-size: 10px;
-			text-align: center;
-
-		}
-	}
-</style>
-</head>
-<style>
-.btn {
-    background-color: #333333;   
-    color: white;             
-    padding: 10px 20px;
-    text-decoration: none;    underline 
-    border-radius: 5px;
-    display: inline-block;
-}
-
-.btn:hover {
-    background-color:  #9dc4a0; 
-}
-</style>
-	<ul>
-    <li><a href="index.html" class="btn">Stickers</a></li>
-    <li><a href="Weekly.html" class="btn">Weekly</a></li>
-    <li><a href="Locations.html" class="btn">Locations</a></li>
-    <li><a href="About.html" class="btn">About Us</a></li>
-</ul>
-
-</body>	
-</head>
-<head>
-<style>
-
 body {
-  margin: 0;
+    margin: 0;
+    min-height: 100vh;
+    background-color: #9dc4a0;
+    font: Arial, sans-serif;
+
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+
+h1 {
+    margin-top: 30px;
+    color: #333;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    width: 100%;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: #111111;
+}
+
 
 .container {
-  display: grid;
-  place-items: center;
-  height: 100vh;
-  background-color: #9dc4a0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    width: 300%;
 }
 
-.container div {
-  background-color: #f1f1f1;
-  border: 1px solid black;
 
-  width: 200px;
-  height: 200px;
+.card {
+    background-color: #f1f1f1;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+}
 
-  font-size: 50px;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.card img {
+    width: 300px;
+    height: auto;
 }
 </style>
 </head>
+
 <body>
 
+<h1>Limited Time: Weekly Drop!</h1>
+
+<ul>
+    <li><a href="index.html">Stickers</a></li>
+    <li><a href="Weekly.html">Weekly</a></li>
+    <li><a href="Locations.html">Locations</a></li>
+    <li><a href="About.html">About Us</a></li>
+</ul>
+
 <div class="container">
-  <div>1</div>
+    <div class="card">
+        <img src="OG_Marshi.png" alt="OG Marshi">
+        <h2>*LIMITED* OG MARSHI</h2>
+        <h3>10$</h3>
+    </div>
 </div>
 
 </body>
-
-
-
 </html>
